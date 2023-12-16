@@ -1,0 +1,36 @@
+.nav{
+    display: flex;
+    list-style-type: none;
+    padding: 40px;
+    position: absolute;
+    z-index: 1;
+}
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+.nav a, .nav h2{
+    color: white;
+    text-decoration: none;
+    margin-right: 40px;
+}
+.nav a:hover{
+    cursor: pointer;
+    padding-bottom: 4px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+.nav h2{
+    margin-right: 25px;
+    margin-left: 23px;
+}
+.nav li{
+    margin-top: 8px;
+}
+@media screen and (max-width: 500px) {
+    .nav{
+        display: none;
+    }
+    
+}

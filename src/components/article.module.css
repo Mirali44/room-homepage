@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+}
+.text{
+    padding: 35px 65px;
+}
+.text h4{
+    line-height: 50px;
+    letter-spacing: 10px;
+    margin-bottom:0x !important;
+}
+.text p{
+    line-height: 25px;
+    color: hsl(0, 0%, 63%);
+}
+
+@media screen and (max-width: 500px) {
+    .container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .text{
+        padding: 35px 20px;
+    }
+  }

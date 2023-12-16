@@ -1,0 +1,46 @@
+.container{
+    display: none;
+}
+.nav{
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+
+    z-index: 1;
+}
+.nav ul{
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding-inline-start: 5px;
+}
+.nav a{
+    color: black;
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 700;
+    font-size: 18px;
+}
+.closeIcon{
+    color: grey;
+}
+.menuIcon{
+    color: white;
+    z-index: 1;
+    margin-top: 15px;
+}
+.nav a:hover{
+    cursor: pointer;
+    padding-bottom: 4px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+.nav li{
+    margin-top: 8px;
+}
+@media screen and (max-width: 500px) {
+    .container{
+        display: block;
+        position: absolute;
+    }   
+}

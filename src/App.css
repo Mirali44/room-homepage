@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'League Spartan', sans-serif;
+}
+div{
+  position: relative;
+}
+.mainContainer{
+  display: flex;
+}
+.extraContainer{
+  display: flex;
+}
+
+@media screen and (max-width: 500px) {
+  .mainContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
